@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8592014749014362076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3015bc376cd9aac4ba80011ae7cb3951, type: 3}
+  m_Name: Normal
+  m_EditorClassIdentifier: 
+  _ParentAsset: {fileID: 11400000}
+  stateSprite: {fileID: 1972692449038388228, guid: 39e609f80b692bd43ba965ad5e99f537,
+    type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc50cbf16097b634cb794498b091a0ca, type: 3}
+  m_Name: Null
+  m_EditorClassIdentifier: 
+  _SubAssets:
+  - {fileID: 605009046867796748}
+  - {fileID: 5427359724298385874}
+  - {fileID: -8592014749014362076}
+--- !u!114 &605009046867796748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3015bc376cd9aac4ba80011ae7cb3951, type: 3}
+  m_Name: Mepachi
+  m_EditorClassIdentifier: 
+  _ParentAsset: {fileID: 11400000}
+  stateSprite: {fileID: 8235040765865245321, guid: 39e609f80b692bd43ba965ad5e99f537,
+    type: 3}
+--- !u!114 &5427359724298385874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3015bc376cd9aac4ba80011ae7cb3951, type: 3}
+  m_Name: Smile
+  m_EditorClassIdentifier: 
+  _ParentAsset: {fileID: 11400000}
+  stateSprite: {fileID: 8330310146855033904, guid: 39e609f80b692bd43ba965ad5e99f537,
+    type: 3}
